@@ -13,7 +13,19 @@ function sort(arr) {
     }
   }
   
-  let numbers = [5, 3, 8, 4, 2];
-  sort(numbers);
-  console.log(numbers);  // Output: [2, 3, 4, 5, 8]
-  
+  const list = [1,3,5,6,2]
+  sort(list);
+  console.log(list); 
+
+
+
+
+
+
+
+
+
+
+
+
+

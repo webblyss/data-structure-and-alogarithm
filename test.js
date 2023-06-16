@@ -1,25 +1,24 @@
-// REVERSE A LIST 
 
 
-function reverseList(arr){
-   let start = 0;
-   let end = arr.length - 1;
+// FIND THE MAX
 
-    while (start < end) {
-        let temp = arr[start]
-        arr[start] = arr[end]
-        arr[end] = temp
+function findMax(arr){
+    let max = arr[0]
 
-
-        start++;
-        end--;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i]
+        }
+        
     }
 
-
-return arr;
+    return max;
 }
 
 
+const list = [1,2,3,4,5]
+
+console.log(findMax(list))
 
 
 
